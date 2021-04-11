@@ -11,16 +11,19 @@
 		<div id="container">
 			<h1 class="hidden">Products</h1>
 			<header>
-				<img src="images/logo_2.svg" alt="fantastik">
+				<img id="logo" src="images/logo_2.svg" alt="fantastik">
 				<nav id="mainNav">
 					<h2 class="hidden">Main Navigation</h2>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="ads.html">Advertisements</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+					<button id="button"></button>
+					<div id="burgerCon">
+						<ul id="burgerMenu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="ads.html">Advertisements</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
 				</nav>
 			</header>
 			<main>
@@ -28,38 +31,53 @@
 					<h2 id="productsTitle">Products</h2>
 					<section class="product">
 						<h2 class="hidden">Product</h2>
-						<img src="images/temp_prod_image.png" alt="product images">
+						<div class="productImage">
+							<div class="imageSection section1" data-offset="0"></div>
+							<div class="imageSection section2" data-offset="1"></div>
+							<div class="imageSection section3" data-offset="2"></div>
+							<div class="imageSection section4" data-offset="3"></div>
+						</div>
 						<section class="productInfo">
-							<h2>Product #1</h2>
-							<p>Description of product.</p>
-							<button>More Info</button>
+							<h2 class="productTitle">Product #1</h2>
+							<p class="productMainDesc">Description of product.</p>
+							<a class="infoButton button1" data-offset="0" href="#lightbox">More Info</a>
+							<section class="lightbox" id="lightbox">
+						      <a href="#" class="close">X</a>
+						    <div>
+						      <h2 class="productName">Product Name</h2>
+									<p class="productDescription">Product Information</p>
+						    </div>
+						  </section>
 						</section>
 					</section>
 					<section class="product">
 						<h2 class="hidden">Product</h2>
-						<img src="images/temp_prod_image.png" alt="product images">
+						<div class="productImage">
+						</div>
 						<section class="productInfo">
 							<h2>Product #2</h2>
 							<p>Description of product.</p>
-							<button>More Info</button>
+							<a class="infoButton button2" data-offset="1" href="#lightbox">More Info</a>
 						</section>
 					</section>
 					<section class="product">
 						<h2 class="hidden">Product</h2>
-						<img src="images/temp_prod_image.png" alt="product images">
+						<div class="productImage">
+						</div>
 						<section class="productInfo">
 							<h2>Product #3</h2>
 							<p>Description of product.</p>
-							<button>More Info</button>
+							<a class="infoButton button3"  data-offset="2" href="#lightbox">More Info</a>
 						</section>
 					</section>
-					<section class="product">
+					<section class="product" >
 						<h2 class="hidden">Product</h2>
-						<img src="images/temp_prod_image.png" alt="product images">
+						<div class="productImage">
+						</div>
 						<section class="productInfo">
 							<h2>Product #4</h2>
 							<p>Description of product.</p>
-							<button>More Info</button>
+							<a class="infoButton button4" data-offset="3" href="#lightbox">More Info</a>
 						</section>
 					</section>
 

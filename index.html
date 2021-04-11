@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<title>Fantastik - Home</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
@@ -14,13 +15,16 @@
 				<img id="logo" src="images/logo_2.svg" alt="fantastik">
 				<nav id="mainNav">
 					<h2 class="hidden">Main Navigation</h2>
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="ads.html">Advertisements</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+					<button id="button"></button>
+					<div id="burgerCon">
+						<ul id="burgerMenu">
+							<li><a href="#">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="ads.html">Advertisements</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
 				</nav>
 			</header>
 			<main>
@@ -30,16 +34,16 @@
 				</section>
 				<section id="beerPromo">
 					<h2 class="hidden">Beer Promo</h2>
-					<img src="images/beer_image.jpg" alt="fantastik beer" width="300" height="250">
+					<a href="products.html"><img src="images/beer_image.jpg" alt="fantastik beer"></a>
 					<section id=beerPromoInfo>
 						<h2>Beer</h2>
-						<p>Checkout our selection of beer and find the perfect one for you!</p>
+						<p>Tap the image to checkout our selection of beer and find the perfect one for you!</p>
 						<a href="products.html">Buy Now!</a>
 					</section>
 				</section>
 				<section id="aboutPromo">
 					<h2 class="hidden">About Us Promo</h2>
-					<img src="images/beer_image.jpg" alt="fantastik beer" width="300" height="250">
+					<a href="about.html"><img src="images/beer_image.jpg" alt="fantastik beer"></a>
 					<section id=aboutPromoInfo>
 						<h2>Fantastik</h2>
 						<p>Learn about our company and what we value.</p>
