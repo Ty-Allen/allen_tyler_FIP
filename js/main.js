@@ -12,17 +12,17 @@
 					imageSections = document.querySelector(".productImage");
 
 		const imageText = [
-			["Product #1", `Description of product.`],
-			["Change 2", `Cool Description2`],
-			["Change 3", `Cool Description3`],
-			["Change 4", `Cool Description4`]
+			["Drink #1", `Magnificent aromas and a favourable flavour delieverd from galaxy, mosaic and citra hops.`],
+			["Grease Remover", `Made with our amazingly clean techniques.`],
+			["Incredible Flavour", `Light malt body offers a crisp but not bitter drink.`],
+			["Iconic Design", `Beautiful art made to inspire!`]
 		];
 
 		const productText = [
-			["Product 1", `Product 1 Description`],
-			["Product 2", `Product 2 Description`],
-			["Product 3", `Product 3 Description`],
-			["Product 4", `Product 4 Description`]
+			["Drink #1", `Dry Hops: Citra, Galaxy, Mosaic, Simcoe.`],
+			["Drink #2", `Dry Hops: Citra, Mosiac, Amarillo, Simcoe.`],
+			["Drink #3", `Dry Hops: El Dorado, Azacca, Chinook.`],
+			["Drink #4", `Dry Hops: Citra, Azacca, Chinook, Simcoe.`]
 		];
 
 		function hamburgerMenu() {
