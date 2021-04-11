@@ -475,6 +475,13 @@ footer p
 	color: #f5a200;
 	font-family: arial, sans-serif;
 	font-size: 18px;
+	transition: .2s linear;
+}
+
+#submit:hover
+{
+	background-color: #f5a200;
+	color: #fff;
 }
 
 /* end of mobile */
@@ -974,7 +981,7 @@ footer p
 	#submit
 	{
 		max-width: 100px;
-		margin: 30px 0 30px 60%;
+		margin: 30px 0 30px 65%;
 		padding: 6px;
 		font-size: 20px;
 	}
